@@ -7,7 +7,6 @@ Source0:        http://tmrc.mit.edu/mirror/twisted/Pair//%directory_down/Twisted
 License:        MIT
 Group:          Development/Python
 URL:            http://twistedmatrix.com/projects/pair/
-BuildRoot:      %{_tmppath}/%{name}-buildroot
 BuildRequires:	python-devel python-twisted-core
 Requires:       python-twisted-core
 # do not work on x86_64 du to module loading issue
