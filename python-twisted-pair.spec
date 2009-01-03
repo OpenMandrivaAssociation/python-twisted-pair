@@ -1,7 +1,7 @@
 Summary:        A module to do low level tcp stuff with Twisted
 Name:           python-twisted-pair
-Version: 0.1.0
-Release: %mkrel 3
+Version: 8.2.0
+Release: %mkrel 1
 %define directory_down %(echo %version|perl -n -e  '/^(\d+\.\d+).*$/; print \$1 ')
 Source0:        http://tmrc.mit.edu/mirror/twisted/Pair//%directory_down/TwistedPair-%{version}.tar.bz2
 License:        MIT
@@ -32,5 +32,5 @@ A module to do low level tcp stuff with Twisted.
 %files
 %defattr(0644,root,root,0755)
 %doc LICENSE README doc/*
-%py_platsitedir/twisted/pair/
+%py_platsitedir/*
 
