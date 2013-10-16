@@ -1,9 +1,9 @@
 Summary:        A module to do low level tcp stuff with Twisted
 Name:           python-twisted-pair
-Version: 9.0.0
-Release: 2
+Version: 10.2.0
+Release: 1
 %define directory_down %(echo %version|perl -n -e  '/^(\d+\.\d+).*$/; print \$1 ')
-Source0:        http://tmrc.mit.edu/mirror/twisted/Pair//%directory_down/TwistedPair-%{version}.tar.bz2
+Source0:        http://tmrc.mit.edu//mirror/twisted/Pair/10.2/TwistedPair-%{version}.tar.bz2
 License:        MIT
 Group:          Development/Python
 URL:            http://twistedmatrix.com/projects/pair/
@@ -62,4 +62,5 @@ A module to do low level tcp stuff with Twisted.
 
 * Sat May 14 2005 Michael Scherer <misc@mandriva.org> 0.1.0-1mdk
 - Initial package
+
 
