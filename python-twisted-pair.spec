@@ -29,5 +29,5 @@ A module to do low level tcp stuff with Twisted.
 
 %files
 %defattr(0644,root,root,0755)
-%doc LICENSE README doc/*
+%doc LICENSE README *
 %{py_platsitedir}/*
